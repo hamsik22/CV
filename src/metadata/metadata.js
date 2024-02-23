@@ -2,14 +2,9 @@ module.exports = {
   name: '황석현',
   title: 'iOS Developer',
   facts: {
-    'Residence': 'Korea, Jinju',
-    'Github': `<a href="https://github.com/hamsik22">
-                  <i class="fa-brands fa-github fact-icon"></i>Hamsik22
-                </a>`,
-    //'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': `<a href="https://github.com/hamsik22">
-                <i class="fa fa-envelope fact-icon"></i>payback9488@gmail.com
-                </a>`
+    'Residence': '<a href="https://maps.app.goo.gl/A3iqDJAXEQZDpvve9"><i class="fa fa-home fact-icon"></i>Jinju, Korea</a>',
+    'Github': '<a href="https://github.com/hamsik22"><i class="fa-brands fa-github fact-icon"></i>Hamsik22</a>',
+    'Email': '<a href="mailto:payback9488@gmail.com"><i class="fa fa-envelope fact-icon"></i>payback9488@gmail.com</a>'
   },
   skills: [
     ['Swift', 80],
