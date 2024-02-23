@@ -1,7 +1,6 @@
 module.exports = {
   name: '황석현',
-  engName: 'SukHyeon Hwang',
-  title: 'iOS Developer',
+  title: 'iOS Developer',
   facts: {
     'Residence': '<a href="https://maps.app.goo.gl/A3iqDJAXEQZDpvve9"><i class="fa fa-home fact-icon"></i>Jinju, Korea</a>',
     'Github': '<a href="https://github.com/hamsik22"><i class="fa-brands fa-github fact-icon"></i>Hamsik22</a>',
@@ -9,33 +8,32 @@ module.exports = {
   },
   skills: [
     ['Swift', 80],
-    ['SwiftUI', 50],
-    ['테스트', 50]
+    ['SwiftUI', 50]
   ],
   positions: [
     {
-      title: '테스트',
-      period: '테스트 early 17th century',
-      skills: ['테스트', '한번더', 'death'],
+      title: 'FillTime:시간을채우다',
+      period: '2023.09 ~ ing',
+      skills: ['SwiftUI', 'MVVM', 'Firebase'],
       contents: `
-테스트 Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+      "목표를 향해 도전하는 사람들이 포기하지 않았으면 좋겠어요."
+      `
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
+      title: 'RelaxOn - 수면 백색 소음 & 자연의 소리',
+      period: '2023.03 ~ 2024.09',
+      skills: ['SwiftUI', 'MVVM', 'AVFoundation'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+      “더 이상 수면에 도움되는 소리를 찾지 말고 Relax On과 함께 만들어보세요.“
+      `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
+      title: 'Kuiz - 우리말 띄어쓰기 퀴즈',
+      period: '2022.09 ~ 2022.12',
+      skills: ['SwiftUI', 'death', 'love'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+      "Kuiz(퀴즈)는 Korean Quiz의 줄임말이에요. 사람들이 글을 쓸 때 많이 틀리는 띄어쓰기를 게임으로 만들어 봤어요."
+      `
     }
   ],
   experience: [
