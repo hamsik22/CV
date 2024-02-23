@@ -11,13 +11,6 @@ const buildPdf = require('./utils/pdf.js');
 const srcDir = __dirname;
 const outputDir = __dirname + '/../dist';
 
-const pdfOptions = {
-  font: {
-    family: 'Noto Sans CJK KR',
-    size: 12
-  }
-};
-
 // Clear dist dir
 fs.emptyDirSync(outputDir);
 
@@ -39,4 +32,4 @@ const html = template({
 fs.writeFileSync(outputDir + '/index.html', html);
 
 // Build PDF
-buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`, pdfOptions);
+buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`);
