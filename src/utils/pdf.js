@@ -6,7 +6,10 @@ module.exports = async function buildPdf(inputFile, outputFile) {
   await page.goto(`file://${inputFile}`, {
     waitUntil: 'networkidle0'
   });
+  await page.goto('http://example.com');
   await page.addStyleTag({ content: '@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");' });
+  
+  // 폰트 적용
   await page.evaluate(() => {
     document.body.style.fontFamily = 'Noto Sans KR, sans-serif';
   });
