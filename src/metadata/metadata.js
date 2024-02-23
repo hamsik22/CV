@@ -17,26 +17,31 @@ module.exports = {
     {
       title: 'FillTime:시간을채우다',
       period: '2023.09 ~ ing',
-      skills: ['SwiftUI', 'MVVM', 'Firebase'],
+      skills: ['SwiftUI', 'MVVM', 'Firebase','개인 프로젝트'],
       contents: `
-      "목표를 향해 도전하는 사람들이 포기하지 않았으면 좋겠어요."
+      "목표를 향해 도전하는 사람들이 포기하지 않았으면 좋겠어요!
+      * Timer 
+      * MVVM 디자인 패턴의 이해
+      * Firebase 적용
       `
     },
     {
       title: 'RelaxOn - 수면 백색 소음 & 자연의 소리',
       period: '2023.03 ~ 2024.09',
-      skills: ['SwiftUI', 'MVVM', 'AVFoundation'],
+      skills: ['SwiftUI', 'MVVM', 'AVFoundation', '팀 프로젝트'],
       contents: `
       “더 이상 수면에 도움되는 소리를 찾지 말고 Relax On과 함께 만들어보세요.“
+      * Timer 인스턴스의 활용
+      * 디자이너와 협업하며 UI 구현
       `
     },
     {
       title: 'Kuiz - 우리말 띄어쓰기 퀴즈',
       period: '2022.09 ~ 2022.12',
-      skills: ['SwiftUI', 'death', 'love'],
+      skills: ['SwiftUI', 'death', 'love', '팀 프로젝트'],
       contents: `
-      "Kuiz(퀴즈)는 Korean Quiz의 줄임말이에요. 
-      사람들이 글을 쓸 때 많이 틀리는 띄어쓰기를 게임으로 만들어 봤어요."
+      "사람들이 글을 쓸 때 많이 틀리는 띄어쓰기를 게임으로 만들어 봤어요."
+      * UI 위주 작업
       `
     }
   ],
@@ -44,18 +49,20 @@ module.exports = {
   // 추가 이력 레포지토리
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: '스위프트 코딩클럽',
+      skills: ['Community', 'Communication', 'Maintainer'],
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
-    },
-    {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
-`
+      Swift를 배우고 싶은 사람들이 모이는 곳에서 메인테이너로 활동했습니다.
+      운영진과 회의를 하면서 소통의 경험을 쌓고 개발자와 개발문화에 노출되어 성장하려고 노력했습니다.
+      지금까지 개발자와 팀 모두 스위프트 코딩클럽을 통해서 만나게 되었습니다!
+      `
     }
+//     {
+//       header: 'Poetry',
+//       skills: ['poetry', 'erotic'],
+//       contents: `
+// In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
+// `
+//     }
   ]
 };
