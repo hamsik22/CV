@@ -16,6 +16,10 @@ module.exports = async function buildPdf(inputFile, outputFile) {
       bottom: '2.54cm',
       left: '2.54cm',
     },
+    font: {
+      family: 'Noto Sans CJK KR',
+      path: '/usr/share/fonts/truetype/noto/NotoSansCJKkr-Regular.otf',
+    },
   });
   await browser.close();
 };
