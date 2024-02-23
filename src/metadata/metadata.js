@@ -35,7 +35,8 @@ module.exports = {
       period: '2022.09 ~ 2022.12',
       skills: ['SwiftUI', 'death', 'love'],
       contents: `
-      "Kuiz(퀴즈)는 Korean Quiz의 줄임말이에요. 사람들이 글을 쓸 때 많이 틀리는 띄어쓰기를 게임으로 만들어 봤어요."
+      "Kuiz(퀴즈)는 Korean Quiz의 줄임말이에요. 
+      사람들이 글을 쓸 때 많이 틀리는 띄어쓰기를 게임으로 만들어 봤어요."
       `
     }
   ],
