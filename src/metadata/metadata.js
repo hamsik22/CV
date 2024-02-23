@@ -1,5 +1,6 @@
 module.exports = {
   name: '황석현',
+  engName: 'SukHyeon Hwang',
   title: 'iOS Developer',
   facts: {
     'Residence': '<a href="https://maps.app.goo.gl/A3iqDJAXEQZDpvve9"><i class="fa fa-home fact-icon"></i>Jinju, Korea</a>',
