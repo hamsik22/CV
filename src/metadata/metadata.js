@@ -3,8 +3,8 @@ module.exports = {
   title: 'iOS Developer',
   facts: {
     'Residence': 'Korea, Jinju',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
+    'Github': `<a href="https://github.com/hamsik22">
+                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>Hamsik22
                 </a>`,
     'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
     'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
