@@ -10,18 +10,8 @@ module.exports = {
     'Email': '<a href="payback9488@gmail.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
   },
   skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 60],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 80],
-    ['Literature', 100],
-    ['Influence', 100],
+    ['Swift', 80],
+    ['SwiftUI', 50]
   ],
   positions: [
     {
