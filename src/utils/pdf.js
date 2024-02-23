@@ -6,6 +6,10 @@ module.exports = async function buildPdf(inputFile, outputFile) {
   await page.goto(`file://${inputFile}`, {
     waitUntil: 'networkidle0'
   });
+  await page.addStyleTag({ content: '@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");' });
+  await page.evaluate(() => {
+    document.body.style.fontFamily = 'Noto Sans KR, sans-serif';
+  });
   await page.pdf({
     path: outputFile,
     format: 'A4',
@@ -15,10 +19,6 @@ module.exports = async function buildPdf(inputFile, outputFile) {
       right: '2.54cm',
       bottom: '2.54cm',
       left: '2.54cm',
-    },
-    font: {
-      family: 'Noto Sans CJK KR',
-      path: '/Library/Fonts/NotoSansCJKkr-Regular.otf',
     },
   });
   await browser.close();
