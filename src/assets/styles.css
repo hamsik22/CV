@@ -1,4 +1,4 @@
-/* :root {
+:root {
     --bs-font-sans-serif: Roboto, sans-serif;
     --bs-body-font-weight: 400;
     --bs-body-color: #858585;
@@ -6,7 +6,7 @@
     --light-color: #D9D9D9;
     --dark-color: #7a7a7a;
     --bs-body-font-size: 1.2rem;
-} */
+}
 
 a {
     word-break: break-word;
