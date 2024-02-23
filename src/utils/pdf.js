@@ -6,6 +6,13 @@ module.exports = async function buildPdf(inputFile, outputFile) {
   await page.goto(`file://${inputFile}`, {
     waitUntil: 'networkidle0'
   });
+
+  await page.addStyleTag({
+  content: 
+    `@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+    body { font-family: 'Noto Sans KR', sans-serif; }`
+});
+  
   await page.pdf({
     path: outputFile,
     format: 'A4',
