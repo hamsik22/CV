@@ -19,10 +19,11 @@ module.exports = {
       period: '2023.09 ~ ing',
       skills: ['SwiftUI', 'MVVM', 'Firebase','개인 프로젝트'],
       contents: `
-      "목표를 향해 도전하는 사람들이 포기하지 않았으면 좋겠어요!
+      "목표를 향해 도전하는 사람들이 포기하지 않았으면 좋겠어요!"
       * Timer 
       * MVVM 디자인 패턴의 이해
       * Firebase 적용
+      * 앱스토어 출시
       `
     },
     {
@@ -33,6 +34,7 @@ module.exports = {
       “더 이상 수면에 도움되는 소리를 찾지 말고 Relax On과 함께 만들어보세요.“
       * Timer 인스턴스의 활용
       * 디자이너와 협업하며 UI 구현
+      * 2.0.0 배포
       `
     },
     {
@@ -42,6 +44,7 @@ module.exports = {
       contents: `
       "사람들이 글을 쓸 때 많이 틀리는 띄어쓰기를 게임으로 만들어 봤어요."
       * UI 위주 작업
+      * 앱스토어 출시
       `
     }
   ],
