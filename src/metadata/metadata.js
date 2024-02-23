@@ -16,7 +16,7 @@ module.exports = {
     {
       title: '테스트',
       period: '테스트 early 17th century',
-      skills: ['테스트', 'philosophy', 'death'],
+      skills: ['테스트', '한번더', 'death'],
       contents: `
 테스트 Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
 `
