@@ -6,8 +6,8 @@ module.exports = {
     'Github': `<a href="https://github.com/hamsik22">
                   <i class="fa-brands fa-github fact-icon"></i>Hamsik22
                 </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    //'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
+    'Email': '<a href="payback9488@gmail.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
   },
   skills: [
     ['Comedy', 100],
