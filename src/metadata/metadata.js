@@ -1,4 +1,5 @@
 module.exports = {
+  // 기본 정보
   name: '황석현',
   title: 'iOS Developer',
   facts: {
@@ -6,10 +7,12 @@ module.exports = {
     'Github': '<a href="https://github.com/hamsik22"><i class="fa-brands fa-github fact-icon"></i>Hamsik22</a>',
     'Email': '<a href="mailto:payback9488@gmail.com"><i class="fa fa-envelope fact-icon"></i>payback9488@gmail.com</a>'
   },
+  // 기술 스택
   skills: [
-    ['Swift', 80],
-    ['SwiftUI', 50]
+    ['Swift', 50],
+    ['SwiftUI', 30]
   ],
+  // 경력 사항
   positions: [
     {
       title: 'FillTime:시간을채우다',
@@ -36,6 +39,8 @@ module.exports = {
       `
     }
   ],
+
+  // 추가 이력 레포지토리
   experience: [
     {
       header: 'Performance',

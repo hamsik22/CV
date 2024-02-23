@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ name }}. {{ title }}</title>
+    <!-- 웹 아이콘 -->
     <link rel="icon" href="hamsik22_favicon.ico" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +28,8 @@
                         <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time>
                     </p>
                     <p>
+
+                        <!-- PDF 생성 버튼(한글 미출력 이슈로 비활성화 -->
 <!--                         <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
                         <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
                                                                                         class="text-nowrap"><i
@@ -34,6 +37,7 @@
                     </p>
                 </div>
             </div>
+            <!-- 프로필 사진 -->
             <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
                 <img src="hamsik22_photo.jpeg" class="rounded-circle img-fluid" alt="Personal photo">
             </div>
@@ -49,7 +53,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h3 class="h2 screen mb-4">Skills</h3>
         <div class="row align-items-center">
@@ -65,12 +69,18 @@
             {{/each}}
         </div>
     </div>
+
     <!--소개글 -->
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        English poet, playwright and actor, widely regarded as the greatest writer in the English language
-        and the world's pre-eminent dramatist. Often called England's national poet and the "Bard of Avon".
-        My extant work is including collaborations, consist of approximately 38 plays, 154 sonnets,
-        two long narrative poems and a few other verses, some of uncertain authorship.
+        저에게 개발은 단순히 의자에 앉아서 컴퓨터를 하는 것이 아닌 본질과 핵심을 
+        찾아 문제를 정의하고 해결하는 과정이라고 생각합니다. 지금까지 온라인 
+        커뮤니티를 통해 진행했던 2번의 팀 프로젝트에서 해당 과정을 겪었고 
+        내적 성장에 큰 도움을 받았습니다. 
+        보다 많은 성장을 위해서는 사람들과의 만남이 필연적이라고 생각하여
+        커뮤니티와 커뮤니케이션에 관심을 가지고 사람들을 만나고 있습니다.
+
+        저는 사람을 통해서 성장하고 성장한만큼 사람들에게 나누어주기 위해
+        전문가다운 개발자가 되기위해 노력하고 있는 신입 iOS 개발자 입니다!
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
@@ -95,11 +105,16 @@
         {{/each}}
     </div>
 
+    <!-- 교육이력 -->
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Education</h2>
         <div>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</div>
     </div>
 
+    
+    <!-- 추가 이력
+        metadata.js의 추가 이력에서 추가
+     -->
     <h2 class="mb-4">Additional Experience</h2>
 
     {{#each experience}}
