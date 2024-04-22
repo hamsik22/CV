@@ -28,7 +28,7 @@ module.exports = {
     },
     {
       title: 'RelaxOn - 수면 백색 소음 & 자연의 소리',
-      period: '2023.03 ~ 2024.09',
+      period: '2023.03 ~ 2024.03',
       skills: ['SwiftUI', 'MVVM', 'AVFoundation', '팀 프로젝트'],
       contents: `
       “더 이상 수면에 도움되는 소리를 찾지 말고 Relax On과 함께 만들어보세요.“
